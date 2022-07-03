@@ -8,8 +8,8 @@ public class Calculate {
   }
 
   public double average(int x, int y) {
-    double ave;
-    ave = (double) (x + y) / 2;
-    return ave;
+    double a;
+    a = (double) (x + y) / 2;
+    return a;
   }
 }

@@ -14,7 +14,7 @@ public class CalculateTest {
   @Test
   public void testAve() {
     Calculate calculate = new Calculate();
-    double expected = 2.5;
+    int expected = 5;
     assertEquals(expected, calculate.average(2, 3));
   }
 }
