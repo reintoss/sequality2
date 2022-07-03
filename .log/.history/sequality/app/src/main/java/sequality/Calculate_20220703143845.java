@@ -8,14 +8,13 @@ public class Calculate {
   }
 
   public int sum2(int x, int y) {
-    System.out.print("Sum of" + x + "and" + y + "is" + (x + y) + ".");
     return x + y;
   }
 
   public double average(int x, int y) {
     double ave;
     ave = (double) (x + y) / 2;
-    System.out.print("Averege is" + ave + ".");
+    System.out.print("Averege is" + ave);
     return ave;
   }
 }
