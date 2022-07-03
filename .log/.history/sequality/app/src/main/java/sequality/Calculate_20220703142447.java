@@ -7,9 +7,9 @@ public class Calculate {
     return x + y;
   }
 
-  public float average(int x, int y) {
+  public int average(int x, int y) {
     float a;
-    a = (float) (x + y) / 2;
+    a = (float)(x + y) / 2;
     return a;
   }
 }
