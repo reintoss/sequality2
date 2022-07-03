@@ -14,8 +14,8 @@ public class AppTest {
   }
 
   @Test
-  public void testAppReturnHelloWorld() {
+  public void appHasAGreeting() {
     App classUnderTest = new App();
-    assertEquals("Hello World!", classUnderTest.getGreeting());
+    assertNotNull("app should have a greeting", classUnderTest.getGreeting());
   }
 }
